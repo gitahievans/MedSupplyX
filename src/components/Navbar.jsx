@@ -5,6 +5,7 @@ import { GlovesValueContext } from "./context/GlovesValueContext";
 import { TotalValueContext } from "./context/TotalValueContext";
 import hamburgerIcon from "../assets/icons/hamburger-menu.svg"
 import cart from "../assets/icons/cart.svg";
+
 const Navigation = () => {
   const {
     glovesValue,
@@ -46,12 +47,30 @@ const Navigation = () => {
       </div>
       {nav && (
         <div className=" flex flex-col justify-around text-center text-xl gap-3 font-bold mt-4 lg:flex-row ">
-          <Link to="/" className="flex flex-col justify-center">
+          <Link
+            to="/"
+            className="flex flex-col justify-center hover:border-b-[1px] border-b-[#9A4B9C] "
+          >
             Home
           </Link>
-          <Link to="/equipment">Hospital Equipment</Link>
-          <Link to="/consumables">Hospital Consumables</Link>
-          <Link to="/baby">Baby Products</Link>
+          <Link
+            to="/equipment"
+            className=" hover:border-b-[1px] border-b-[#9A4B9C] "
+          >
+            Hospital Equipment
+          </Link>
+          <Link
+            to="/consumables"
+            className=" hover:border-b-[1px] border-b-[#9A4B9C] "
+          >
+            Hospital Consumables
+          </Link>
+          <Link
+            to="/baby"
+            className=" hover:border-b-[1px] border-b-[#9A4B9C] "
+          >
+            Baby Products
+          </Link>
         </div>
       )}
     </header>

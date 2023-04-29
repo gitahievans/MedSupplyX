@@ -69,7 +69,7 @@ const Homepage = () => {
       </section>
       <section className="bg-white w-full flex flex-col items-center text-center border border-[0.5px solid #BFBFD9] rounded-xl py-2 gap-4">
         {/* Featured products */}
-        <h1 className="w-10/12 text-4xl font-black">FEATURED PRODUCTS</h1>
+        <h1 className="w-10/12 text-3xl font-semibold">FEATURED PRODUCTS</h1>
         {uniqueFeaturedProducts.map(({ product, id }) => (
           <FeaturedProduct key={id} />
         ))}
