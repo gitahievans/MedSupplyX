@@ -7,10 +7,10 @@ To install and run this app, follow these steps:
 
 Clone this repository to your local machine:
 
-<pre>git clone https://github.com/your-username/medsupplyx.git</pre>
+<pre>git@github.com:gitahievans/MedSupplyX.git</pre>
 Navigate to the project directory:
 
-<pre>cd medsupplyx</pre>
+<pre>cd MedSupplyX</pre>
 Install the dependencies:
 
 <pre>npm install</pre>
