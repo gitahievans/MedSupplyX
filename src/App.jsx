@@ -70,7 +70,7 @@ function App() {
   const [eachItem, setEachItem] = useState({});
 
   return (
-    <div className="App h-screen w-screen scroll-smooth font-ff-poppins">
+    <div className="App scroll-smooth font-ff-poppins">
       <PriceContext.Provider value={price}>
         <ValueContext.Provider value={useInput}>
           <GlovesValueContext.Provider
