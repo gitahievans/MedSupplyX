@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="text-[#1E194F] border-2 flex flex-col gap-6 justify-center text-center p-4 m-4 rounded-lg ">
       <h1 className="text-3xl font-extrabold">MedSupplyX</h1>
-      <div className=" flex justify-around text-center text-xl gap-3 font-bold">
+      <div className=" flex flex-col md:flex-row justify-around text-center text-xl gap-3 font-bold">
         <Link to="/" className="flex flex-col justify-center">
           Home
         </Link>
