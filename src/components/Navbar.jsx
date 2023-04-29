@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useContext } from "react";
 import { GlovesValueContext } from "./context/GlovesValueContext";
 import { TotalValueContext } from "./context/TotalValueContext";
-
+import hamburgerIcon from "../assets/icons/hamburger-menu.svg"
 const Navigation = () => {
   const {
     glovesValue,
@@ -29,21 +29,12 @@ const Navigation = () => {
   return (
     <header className=" py-8 w-full text-[#1E194F] flex flex-col justify-around border-b-2 gap-8">
       <div className="flex justify-around place-items-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
+        <img
+          src={hamburgerIcon}
+          alt=""
           className="w-10 h-10 cursor-pointer"
           onClick={toggleNav}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
+        />
         <Link to="/">
           <h1 className=" text-3xl font-extrabold text-center">MedSupplyX</h1>
         </Link>
