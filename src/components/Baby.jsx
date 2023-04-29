@@ -46,7 +46,7 @@ const Baby = () => {
     return ( 
         <div className='flex flex-col place-items-center text-center my-24'>
             <h1 className='text-5xl font-black mb-12'>BABY PRODUCTS</h1>
-            <div className=' bg-orange-400 w-10/12 rounded-2xl flex flex-col place-items-center gap-8 text-center text-white my-6 border-2 border-orange-400 lg:grid lg:grid-cols-2' id='gloves'>
+            <div className=' w-10/12 rounded-2xl flex flex-col place-items-center gap-8 text-center text-white my-6 border-2 border-orange-400 lg:grid lg:grid-cols-2' id='gloves'>
                 <div className='py-4'>
                     <img src={babybg} alt="baby cloth" className=' w-48 h-48'/>
                 </div>

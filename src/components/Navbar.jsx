@@ -27,7 +27,7 @@ const Navigation = () => {
   };
 
   return (
-    <header className=" py-8 w-full bg-orange-400 text-white flex flex-col justify-around border-b-2 gap-8">
+    <header className=" py-8 w-full text-[#1E194F] flex flex-col justify-around border-b-2 gap-8">
       <div className="flex justify-around place-items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"

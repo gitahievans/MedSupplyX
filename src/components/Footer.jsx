@@ -6,7 +6,7 @@ import instagram from '../assets/img/instagram.png'
 const Footer = () => {
     return (
       <footer
-        className="bg-orange-400 text-white flex flex-col gap-4 justify-center text-center p-4"
+        className="text-[#1E194F] border-2 flex flex-col gap-4 justify-center text-center p-4"
         id="footer"
       >
         <h1 className="text-3xl font-extrabold">MedSupplyX</h1>
