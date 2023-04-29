@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useContext } from "react";
 import { GlovesValueContext } from "./context/GlovesValueContext";
 import { TotalValueContext } from "./context/TotalValueContext";
-import hamburgerIcon from "../assets/icons/hamburger-menu.svg"
+import hamburgerIcon from "../assets/icons/hamburger-menu.svg";
 import cart from "../assets/icons/cart.svg";
 
 const Navigation = () => {
@@ -21,7 +21,7 @@ const Navigation = () => {
   const [nav, setNav] = useState(false);
 
   const toggleNav = () => {
-    setNav(!nav)
+    setNav(!nav);
   };
 
   return (
@@ -53,12 +53,7 @@ const Navigation = () => {
           >
             Home
           </Link>
-          <Link
-            to="/equipment"
-            className=" hover:border-b-[1px] border-b-[#9A4B9C] "
-          >
-            Hospital Equipment
-          </Link>
+
           <Link
             to="/consumables"
             className=" hover:border-b-[1px] border-b-[#9A4B9C] "
@@ -70,6 +65,12 @@ const Navigation = () => {
             className=" hover:border-b-[1px] border-b-[#9A4B9C] "
           >
             Baby Products
+          </Link>
+          <Link
+            to="/equipment"
+            className=" hover:border-b-[1px] border-b-[#9A4B9C] "
+          >
+            Hospital Equipment
           </Link>
         </div>
       )}
